@@ -8,7 +8,7 @@ class CashRegister
     @items = []
     @total = 0
     @discount = discount
-    @price = price
+    @price = 0
   end
 
   def self.total
